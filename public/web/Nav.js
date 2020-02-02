@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[5],{439:function(e,n,a){"use strict";a.r(n);var r=a(0),c=a.n(r);n.default=function(e){var n=e.href,a=e.children;return c.a.createElement("a",{href:"/#"+n},c.a.createElement("div",{className:"nav-col"},a))}}}]);

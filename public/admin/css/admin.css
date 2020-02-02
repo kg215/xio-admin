@@ -1,0 +1,34 @@
+.layout,
+.ivu-layout,
+.ivu-menu {
+  height: 100%;
+}
+
+.page-wrapper {
+  padding: 15px;
+  text-align: right;
+}
+
+.layout {
+  background: #F5F7F9;
+  position: relative;
+  border-radius: 4px;
+  overflow: hidden;
+  min-width: 996px;
+}
+
+.header-logo {
+  color: #FFFFFF;
+  font-size: 26px;
+  font-family: monospace;
+}
+
+.ivu-layout-content {
+  padding: 20px 70px 20px;
+  color: #636b6f;
+}
+
+.ivu-table .ivu-table-tip table {
+  width: unset;
+}
+

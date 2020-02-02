@@ -1,0 +1,10 @@
+{
+    "/admin/js/admin.js": "/admin/js/admin.js",
+    "/admin/css/admin.css": "/admin/css/admin.css",
+    "/app/css/app.css": "/app/css/app.css",
+    "/home/css/home.css": "/home/css/home.css",
+    "/common/css/common.css": "/common/css/common.css",
+    "/common/css/layout.css": "/common/css/layout.css",
+    "/app/js/app.js": "/app/js/app.js",
+    "/home/js/home.js": "/home/js/home.js"
+}

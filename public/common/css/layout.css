@@ -1,0 +1,68 @@
+.layout-flex {
+  height: 100%;
+  display: -webkit-box;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.layout-flex header {
+  width: 100vw;
+  height: 4.5rem;
+  background: #abcdef;
+}
+
+.layout-flex aside {
+  height: calc(100vh - 4.5rem);
+  -webkit-box-flex: 1;
+          flex-grow: 1;
+  width: 8rem;
+  background: #636B6F;
+}
+
+.layout-flex .main {
+  -webkit-box-flex: 8;
+          flex-grow: 8;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+}
+
+.layout-flex .main section {
+  -webkit-box-flex: 8;
+          flex-grow: 8;
+}
+
+.layout-flex .main footer {
+  -webkit-box-flex: 1;
+          flex-grow: 1;
+}
+
+.layout-grid {
+  display: grid;
+  height: 100%;
+  grid-template-columns: repeat(24, 1fr);
+  grid-template-rows: repeat(100, 1fr);
+}
+
+.layout-grid header {
+  grid-column-start: 1;
+  grid-column-end: 25;
+  grid-row: span 8;
+  background: #abcdef;
+}
+
+.layout-grid aside {
+  grid-column: span 6;
+  grid-row: span 92;
+  background: #636B6F;
+}
+
+.layout-grid .main {
+  grid-column: span 18;
+  grid-row: span 92;
+  display: grid;
+  grid-template-rows: 9fr 1fr;
+}
+

@@ -1,0 +1,171 @@
+@charset "UTF-8";
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  height: 100vh;
+  color: rgba(227, 227, 227, 0.8);
+}
+
+#o-so-cool {
+  position: absolute;
+  z-index: -1;
+}
+
+.o-left {
+  text-align: left;
+  padding-left: 5rem;
+}
+
+.o-right {
+  text-align: right;
+  padding-right: 5rem;
+}
+
+.o-center {
+  text-align: center;
+}
+
+.o-hr {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+  cursor: pointer;
+  color: rgba(227, 227, 227, 0.8);
+}
+
+.o-hr::after {
+  content: "";
+  font-size: 0;
+  width: 100%;
+  display: block;
+  border-bottom: 1px solid #636b6f;
+  -webkit-transform: scale(0, 0);
+          transform: scale(0, 0);
+}
+
+.o-hr:hover::after {
+  -webkit-transform: scale(1, 1);
+          transform: scale(1, 1);
+  -webkit-transition: -webkit-transform 0.6s;
+  transition: -webkit-transform 0.6s;
+  transition: transform 0.6s;
+  transition: transform 0.6s, -webkit-transform 0.6s;
+}
+
+.o-sss {
+  cursor: pointer;
+  padding: 1rem;
+  display: inline-block;
+}
+
+.o-tx {
+  border-radius: 50%;
+  width: 2.8rem;
+  height: 2.8rem;
+  vertical-align: sub;
+}
+
+/*聊些羞羞的事情*/
+
+.o-ellipsis,
+.o-shy-shy .o-shy-info,
+.o-shy-shy .o-shy-name {
+  display: inline-block;
+  width: 100%;
+  overflow: hidden;
+  word-break: keep-all;
+  text-overflow: ellipsis;
+  vertical-align: bottom;
+}
+
+.o-shy-shy {
+  height: 40vh;
+  min-height: 30rem;
+}
+
+.o-shy-shy .o-shy-box {
+  padding: 0 4rem;
+}
+
+.o-shy-shy .o-shy-name {
+  max-width: 10rem;
+}
+
+.o-shy-shy .o-shy-msg {
+  padding: 0 3rem 1rem 3rem;
+  margin-top: -2rem;
+  text-align: justify;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.o-shy-shy .o-shy-py .o-shy-py-date {
+  font-size: 1.2rem;
+  padding-left: 1rem;
+  word-break: break-all;
+}
+
+.o-shy-shy .o-shy-me {
+  text-align: right;
+}
+
+.o-shy-shy .o-shy-me .o-shy-msg {
+  float: right;
+}
+
+.o-work-keeper {
+  word-break: keep-all;
+}
+
+.who-box {
+  color: rgba(227, 227, 227, 0.8);
+  font-size: 1.2rem;
+}
+
+.who-box span {
+  cursor: pointer;
+  padding: 0 3px;
+}
+
+.who-box span:hover {
+  color: #e3e3e3;
+}
+
+.el-main {
+  min-width: 37.5rem;
+}
+
+.el-header {
+  color: rgba(0, 0, 0, 0.65);
+  font-size: 1.4rem;
+  line-height: 4rem;
+}
+
+.el-main {
+  height: calc(100vh - 4rem);
+}
+
+.surprise-search {
+  margin: 19vh auto;
+  width: 30vw;
+  min-width: 30rem;
+}
+
+.say-some:before {
+  content: "客官？想要点什么？";
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 1rem 0;
+}
+
